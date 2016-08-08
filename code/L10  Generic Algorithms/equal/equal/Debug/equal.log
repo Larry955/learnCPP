@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/8/8 10:01:25。
+     1>项目“G:\C++projects\Githubpath\learnCPP\code\L10  Generic Algorithms\equal\equal\equal.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt equal.cpp
+         equal.cpp
+     1>g:\c++projects\githubpath\learncpp\code\l10  generic algorithms\equal\equal\equal.cpp(21): error C2780: “bool std::equal(_InIt1,_InIt1,_InTy (&)[_InSize],_Pr)”: 应输入 4 个参数，却提供了 3 个
+                 j:\dev\vs2013\vc\include\xutility(2877) : 参见“std::equal”的声明
+     1>g:\c++projects\githubpath\learncpp\code\l10  generic algorithms\equal\equal\equal.cpp(21): error C2780: “bool std::equal(_InIt1,_InIt1,_InIt2,_Pr)”: 应输入 4 个参数，却提供了 3 个
+                 j:\dev\vs2013\vc\include\xutility(2863) : 参见“std::equal”的声明
+     1>g:\c++projects\githubpath\learncpp\code\l10  generic algorithms\equal\equal\equal.cpp(21): error C2782: “bool std::equal(_InIt1,_InIt1,_InTy (&)[_InSize])”: 模板 参数“_InIt1”不明确
+                 j:\dev\vs2013\vc\include\xutility(2805) : 参见“std::equal”的声明
+                 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>”
+                 或       “std::_List_const_iterator<std::_List_val<std::_List_simple_types<const char *>>>”
+     1>g:\c++projects\githubpath\learncpp\code\l10  generic algorithms\equal\equal\equal.cpp(21): error C2782: “bool std::equal(_InIt1,_InIt1,_InIt2)”: 模板 参数“_InIt1”不明确
+                 j:\dev\vs2013\vc\include\xutility(2792) : 参见“std::equal”的声明
+                 可能是“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>”
+                 或       “std::_List_const_iterator<std::_List_val<std::_List_simple_types<const char *>>>”
+     1>g:\c++projects\githubpath\learncpp\code\l10  generic algorithms\equal\equal\equal.cpp(22): error C3536: “b”:  初始化之前无法使用
+     1>已完成生成项目“G:\C++projects\Githubpath\learnCPP\code\L10  Generic Algorithms\equal\equal\equal.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.93
