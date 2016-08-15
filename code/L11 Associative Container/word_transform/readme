@@ -1,0 +1,14 @@
+It's an interesting  program that transform words.For instance,in a file named input,you probably see a abbreviated word like "thx",then you
+need to transform it into "thanks".
+The rules of transformation is stored in the "rules",while the original text is stored in the "text".
+
+=================================================================================================================
+
+In this program,we must pass arguments to main.
+So,if you want to run this program,please follow these simple steps:
+1)download the whole file relatived to "word_transform";
+2)open your cmd and use "cd" command to get access to the directory which contains "word_transform.cpp";
+3)input "g++ word_transform.cpp" to compile it.In some situation,you need to add "-std=c++0x" after the command to support c++11.
+Like this:  g++ wprd_transform.cpp -std=c++0x
+4)input "word_transform rules text",and press "enter",we will get the answer.
+  Note:"word_transform" is the file that contains "main","rules" is one of the argument we passed to main,and the other one is "text".
