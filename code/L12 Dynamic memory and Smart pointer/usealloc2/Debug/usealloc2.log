@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/8/27 15:55:47。
+     1>项目“G:\C++projects\Githubpath\learnCPP\code\L12 Dynamic memory and Smart pointer\usealloc2\usealloc2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt usealloc.cpp
+         usealloc.cpp
+     1>j:\dev\vs2013\vc\include\xmemory(348): error C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 j:\dev\vs2013\vc\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
+                 g:\c++projects\githubpath\learncpp\code\l12 dynamic memory and smart pointer\usealloc2\usealloc.cpp(23): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,int*>(_InIt,_InIt,_FwdIt)”的引用
+                 with
+                 [
+                     _FwdIt=int *
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>
+                 ]
+     1>已完成生成项目“G:\C++projects\Githubpath\learnCPP\code\L12 Dynamic memory and Smart pointer\usealloc2\usealloc2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.34
