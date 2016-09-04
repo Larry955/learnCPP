@@ -1,0 +1,11 @@
+﻿生成启动时间为 2016/9/4 17:23:15。
+     1>项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\moveHP\moveHP.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt moveHP.cpp
+         moveHP.cpp
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\movehp\movehp.cpp(19): error C3646: “noexcept”: 未知重写说明符
+     1>已完成生成项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\moveHP\moveHP.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.29
