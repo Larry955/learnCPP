@@ -1,28 +1,24 @@
-﻿生成启动时间为 2016/9/6 19:54:01。
+﻿生成启动时间为 2016/9/12 10:49:52。
      1>项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\StrVec\StrVec.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StrVec.cpp useStrVec.cpp
+         J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /DCRT_SECURE_NO_WARNING StrVec.cpp useStrVec.cpp
          useStrVec.cpp
-     1>j:\dev\vs2013\vc\include\xmemory(348): error C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
-                 j:\dev\vs2013\vc\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
-                 g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(90): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<const std::string*,std::basic_string<char,std::char_traits<char>,std::allocator<char>>*>(_InIt,_InIt,_FwdIt)”的引用
-                 with
-                 [
-                     _FwdIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
-         ,            _InIt=const std::string *
-                 ]
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(48): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(49): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(51): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(104): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(123): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(163): error C3646: “noexcept”: 未知重写说明符
          StrVec.cpp
-     1>j:\dev\vs2013\vc\include\xmemory(348): error C4996: 'std::_Uninitialized_copy0': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
-                 j:\dev\vs2013\vc\include\xmemory(333) : 参见“std::_Uninitialized_copy0”的声明
-                 g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(90): 参见对正在编译的函数 模板 实例化“_FwdIt std::uninitialized_copy<const std::string*,std::basic_string<char,std::char_traits<char>,std::allocator<char>>*>(_InIt,_InIt,_FwdIt)”的引用
-                 with
-                 [
-                     _FwdIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *
-         ,            _InIt=const std::string *
-                 ]
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(48): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(49): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(51): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(104): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(123): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(163): error C3646: “noexcept”: 未知重写说明符
          正在生成代码...
      1>已完成生成项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\StrVec\StrVec.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.67
+已用时间 00:00:00.94

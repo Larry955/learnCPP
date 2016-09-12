@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1473648283 source:g:\c++projects\c++\strvec\main.cpp
+	"StrVec.h"
+	<iostream>
+	<string>
+	<fstream>
+
+1473161403 g:\c++projects\c++\strvec\strvec.h
+	<iostream>
+	<memory>
+	<utility>
+	<initializer_list>
+	<algorithm>
+
+1473648174 source:g:\c++projects\c++\strvec\strvec.cpp
+	"StrVec.h"
+	<string>
+	<memory>
+
