@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/9/12 10:49:52。
+﻿生成启动时间为 2016/9/12 16:55:58。
      1>项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\StrVec\StrVec.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          J:\Dev\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /DCRT_SECURE_NO_WARNING StrVec.cpp useStrVec.cpp
@@ -6,19 +6,19 @@
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(48): error C3646: “noexcept”: 未知重写说明符
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(49): error C3646: “noexcept”: 未知重写说明符
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(51): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(104): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(123): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(163): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(98): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(115): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(155): error C3646: “noexcept”: 未知重写说明符
          StrVec.cpp
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(48): error C3646: “noexcept”: 未知重写说明符
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(49): error C3646: “noexcept”: 未知重写说明符
      1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(51): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(104): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(123): error C3646: “noexcept”: 未知重写说明符
-     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(163): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(98): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(115): error C3646: “noexcept”: 未知重写说明符
+     1>g:\c++projects\githubpath\learncpp\code\l13 copy control\strvec\strvec.h(155): error C3646: “noexcept”: 未知重写说明符
          正在生成代码...
      1>已完成生成项目“G:\C++projects\Githubpath\learnCPP\code\L13 Copy Control\StrVec\StrVec.vcxproj”(Build 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:00.94
+已用时间 00:00:01.42
