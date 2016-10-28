@@ -1,0 +1,6 @@
+﻿  Sales_data.cpp
+g:\c++projects\githubpath\learncpp\code\l14 overloaded operations and conversions\sales_data\sales_data.h(30): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+  main.cpp
+g:\c++projects\githubpath\learncpp\code\l14 overloaded operations and conversions\sales_data\sales_data.h(30): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  Sales_data.vcxproj -> G:\C++projects\Githubpath\learnCPP\code\L14 Overloaded operations and Conversions\Sales_data\Debug\Sales_data.exe
