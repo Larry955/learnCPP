@@ -43,11 +43,11 @@ int main()
 	bp2->fcn();//virtual call,will call Base::fcn() at run time
 	//bp2->fcn(31);	error
 	bp3->fcn();//virtual call,will call D2::fcn() at run time
-	
+
 	D1 *d1p = &d1obj; D2 *d2p = &d2obj;
 	d1p->f2();	//virtual call,will cal D1::f2 at run time
 	d2p->f2();	//virtual call, will call D2::f2 at run time
-	
+
 	Base *p1 = &d2obj; D1 *p2 = &d2obj; D2 *p3 = &d2obj;
 	p2->fcn(42);	//statically bound,calls D1::fcn(int)
 	p3->fcn(42);//statically bound,calls D2::fcn(int)
