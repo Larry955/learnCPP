@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1478172824 source:g:\c++projects\basket_main\basket.cpp
+	"Basket.h"
+	<iostream>
+
+1478172824 g:\c++projects\basket_main\basket.h
+	<iostream>
+	<memory>
+	<set>
+	<stdexcept>
+	<cstddef>
+	<utility>
+	"Quote.h"
+
+1478172824 g:\c++projects\basket_main\quote.h
+	<iostream>
+	<cstddef>
+	<string>
+	<memory>
+
+1478172831 source:g:\c++projects\basket_main\main.cpp
+	"Basket.h"
+	"Quote.h"
+	<iostream>
+
