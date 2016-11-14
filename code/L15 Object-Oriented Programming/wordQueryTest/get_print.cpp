@@ -43,6 +43,6 @@ bool get_words(string &s1, string &s2)
 	//stop if hit eof or a "q" is pressed
 	if (!cin || s1 == "q")return false;
 	cin >> s2;
-	return false;
+	return true;
 }
 
