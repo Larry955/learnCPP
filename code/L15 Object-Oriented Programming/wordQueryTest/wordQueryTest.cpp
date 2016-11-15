@@ -23,7 +23,7 @@ using std::ifstream;
 int main(int argc, char **argv)
 {
 	TextQuery file = get_file(argc, argv);
-
+	file.display_map();
 	//iterate with the user:prompt for a word to find and print results
 	do{
 		string sought;

@@ -78,7 +78,7 @@ void TextQuery::display_map()
 
 	//for each word in the map
 	for (; iter != iter_end; ++iter){
-		cout << "word: " << iter->first << " { ";
+		cout << "word: " << iter->first << "{ ";
 		
 		//fecth location vector as a const reference to avoid copying it
 		auto text_locs = iter->second;
