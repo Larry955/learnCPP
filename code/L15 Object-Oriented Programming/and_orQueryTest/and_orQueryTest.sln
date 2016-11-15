@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "and_orQueryTest", "and_orQueryTest.vcxproj", "{C3AFF2F5-23D5-45E4-A098-B7628A865D7B}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wordQueryTest", "..\wordQueryTest\wordQueryTest.vcxproj", "{01DA9644-F38D-4FBE-A971-8DA1B81A8BDE}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3AFF2F5-23D5-45E4-A098-B7628A865D7B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C3AFF2F5-23D5-45E4-A098-B7628A865D7B}.Debug|Win32.Build.0 = Debug|Win32
-		{C3AFF2F5-23D5-45E4-A098-B7628A865D7B}.Release|Win32.ActiveCfg = Release|Win32
-		{C3AFF2F5-23D5-45E4-A098-B7628A865D7B}.Release|Win32.Build.0 = Release|Win32
 		{01DA9644-F38D-4FBE-A971-8DA1B81A8BDE}.Debug|Win32.ActiveCfg = Debug|Win32
 		{01DA9644-F38D-4FBE-A971-8DA1B81A8BDE}.Debug|Win32.Build.0 = Debug|Win32
 		{01DA9644-F38D-4FBE-A971-8DA1B81A8BDE}.Release|Win32.ActiveCfg = Release|Win32
