@@ -36,6 +36,6 @@ what we need to input is:
 
 **a data.txt**
 
-#Note: data.txt is the parameter we need to pass,it's a file that contains an article,which is from <A Tale of Two Cities>:Chapter1 - The Period.
+Note: data.txt is the parameter we need to pass,it's a file that contains an article,which is from <A Tale of Two Cities>:Chapter1 - The Period.
 
 5)press "Enter", follow the instructions,and you will get the answer.
