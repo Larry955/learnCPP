@@ -1,0 +1,6 @@
+﻿  Sales_data.cpp
+g:\c++projects\githubpath\learncpp\code\l16 templates and generic programming\comparedef\sales_data.h(11): warning C4099: “std::hash<Sales_data>”: 类型名称以前使用“struct”现在使用的是“class”
+  compareDef.cpp
+g:\c++projects\githubpath\learncpp\code\l16 templates and generic programming\comparedef\sales_data.h(11): warning C4099: “std::hash<Sales_data>”: 类型名称以前使用“struct”现在使用的是“class”
+  正在生成代码...
+  compareDef.vcxproj -> G:\C++projects\Githubpath\learnCPP\code\L16 Templates and Generic Programming\compareDef\Debug\compareDef.exe
