@@ -13,7 +13,7 @@ using std::shared_ptr; using std::unique_ptr;
 #include"DebugDelete.h"
 
 int main()
-{
+{ 
 	double *p = new double;
 	DebugDelete d("plain pointer");
 	d(p);		//calls DebugDelete::operator(double*),which deletes p
