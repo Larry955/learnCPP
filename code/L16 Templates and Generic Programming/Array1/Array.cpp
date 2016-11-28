@@ -1,4 +1,3 @@
-
 #include"Blob.h"
 #include<iterator>
 #include<list>
@@ -49,5 +48,6 @@ int main()
 	//instantiates the Blob<string> class and Blob<string>
 	//constructor that has two list<const char*> iterator parameters
 	Blob<string>w2(w.begin(), w.end());	//copy from a list 
+	cout << w2 << endl;
 	system("pause");
 }
