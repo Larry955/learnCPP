@@ -60,10 +60,13 @@ f1.save(Message("content2")); //Folder f1 saves a message named 'content2'
 - s3 = 'L'; //String& operator=(char);
 
 8)**code/L14 Overloaded operations and Conversions/Sales**.A sales_book program.In this program,we overload some operators such as "+","-","=","==","!=","+=","<<",">>"...
+
 Some interesting implements needs to be shown here.
 we overload "!=" operator through "==" operator,
 we overload "+" operator through "+=" operator
+
 ...
+
 Another case we need to be aware of is "self_assignment",which should be noticed to avoid memeory-leak(perhaps...)
 
 **self-assigment**:
