@@ -50,7 +50,7 @@ m1.save(f2);  //m1 is saved in Folder 'f2'
 f1.save(Message("content2")); //Folder f1 saves a message named 'content2'
 ```
 7)**code/L13 Copy Control/String**.A string-like program,here is the operations it supports:
-- String s(String("larry"))l  //copy constructor
+- String s(String("larry"));  //copy constructor
 - String s1("Larry"); //constructor String(const char*)
 - String s2 = s1;   //copy assignment operator
 - String s2(std::move(s1)); //move constructor
@@ -84,12 +84,12 @@ To manage memory by an "elegant way",we use **smart pointer**.
 10)**code/L15 Object-Oriented Programming/wordQueryTest**. A program that could read a file to search speicfied words.
 
 11)**code/L16 Templates and Generic Programming/Vector**.A **vector-like** program implemented through template.Here are the operations it supports:
-- Vector<string>handsome; //template
+- Vector<string> handsome; //template
 - v.push_back("larry"); //push larry into handsome
 - v.size();   //return the size of v,which shows the number of elements it holds 
 - v.capacity(); //return the capacity of v,it's always greater or equal than v.size(),if v.size() equals to v.capacity(),than reallocate v
 - v = {"Larry","is","handsome"};  //implemented by initializer_list
-- Vector<string>handsome1(handsome);  //copy-constructor
-- Vector<string>handome1 = handsome;  //copy assignment operator
+- Vector<string> handsome1(handsome);  //copy-constructor
+- Vector<string> handome1 = handsome;  //copy assignment operator
 - v[0];   //implemented by overload '[]' operator
  
